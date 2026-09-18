@@ -12,7 +12,7 @@ const projectRoot = path.resolve(__dirname, "../..");
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:5173",
+    origin: process.env.FRONTEND_URL || "https://ai-chatapp-shortterm.onrender.com",
     credentials: true,
   }),
 );
