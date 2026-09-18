@@ -8,7 +8,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 const app = express();
-const projectRoot = path.resolve(__dirname);
+const projectRoot = path.resolve(__dirname, "../..");
 
 app.use(
   cors({
